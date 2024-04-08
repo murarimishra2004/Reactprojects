@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.shop{
+    width: 100%;
+    padding: 20px 30px;
+}
+.shop h2{
+    text-transform: uppercase;
+    letter-spacing: 1px ;
+    color: #232323;
+    font-size: 32px;
+    font-weight: 300;
+}
+.shop p{
+    margin-top: 5px ;
+    color: #8a8a8a;
+    font-size: 14px ;
+    font-weight: 600;
+}
+.shop .conatiner{
+    max-width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.shop .conatiner .left_box{
+    width: 25%;
+
+}
+.shop .conatiner .left_box .category{
+    border: 3px solid #f6f6f6;
+    width: 250px;
+}
+.shop .conatiner .left_box .category .header{
+    max-width: 100%;
+    padding: 10px 20px ;
+    
+    background: #f6f6f6;
+}
+.shop .conatiner .left_box .category .header h3{
+    font-size: 16px;
+    color: #232323;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+     
+
+}
+
+.shop .conatiner .left_box .category .shopbox{
+    margin-top: 10px ;
+    width: 100%;
+    padding: 10px 20px ;
+
+}
+.shop .conatiner .left_box .category .shopbox ul{
+    max-width: 100%;
+}
+
+.shop .conatiner .left_box .category .shopbox ul li{
+    list-style: none;
+    margin-left: 10px;
+    text-transform: uppercase;
+    margin-top: 10px ;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8a8a8a;
+    letter-spacing: 1px ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.shop .conatiner .left_box .category .shopbox ul li:hover{
+    color: #232323;
+}
+
+.shop .conatiner .left_box .banner{
+    margin-top: 20px;
+    width: 250px ;
+}
+
+.shop .conatiner .left_box .banner .img_box img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.shop .conatiner .right_box{
+    width: 74%;
+
+}
+.shop .conatiner .right_box .banner{
+    max-width: 100%;
+}
+.shop .conatiner .right_box .banner .img_box img{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.shop .conatiner .right_box .product_box{
+    max-width: 100%;
+    padding: 10px 10px ;
+}
+
+.shop .conatiner .right_box .product_box h2{
+    color: #232323;
+    text-transform: uppercase;
+    letter-spacing: 1px ;
+    font-size: 22px ;
+    margin-top: 10px ;
+}
+
+.shop .conatiner .right_box .product_box .product_conatiner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shop .conatiner .right_box .product_box .product_conatiner .productshopbox{
+    padding: 10px 10px ;
+    width: 270px ;
+    height: 370px ;
+    overflow: hidden;
+    border: 2px solid #f6f6f6;
+    margin-top: 20px ;
+    margin-left: 15px ;
+}
+.shop .conatiner .right_box .product_box .product_conatiner .productshopbox .img_box{
+    display: flex;
+}
+
+.shop .conatiner .right_box .product_box .product_conatiner .productshopbox .img_box img{
+   width: 170px;
+   height: 170px ;
+   margin-left: 40px ;
+}
+
+.shop .conatiner .right_box .product_box .product_conatiner .productshopbox .img_box .icon{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px ;
+    margin-top: 10px ;
+    margin-left: 40px ;
+    transition: 0.5s;
+    
+}
+
+.shop .conatiner .right_box .product_box .product_conatiner .productshopbox .img_box .icon li{
+    list-style: none;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px ;
+    padding: 10px 10px ;
+    margin-top: 10px ;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.shop .conatiner .right_box .product_box .product_conatiner .productshopbox .img_box .icon li:hover{
+    color: #fff;
+    background: #cd1e76;
+}
+
+.shop .conatiner .right_box .product_box .product_conatiner .productshopbox:hover .img_box .icon{
+    margin-left: -20px ;
+}
+
+.shop .conatiner .right_box .product_box .product_conatiner .productshopbox .details{
+    margin-top: 10px ;
+    width: 100%;
+}
+.shop .conatiner .right_box .product_box .product_conatiner .productshopbox .details h3{
+    text-align: center;
+    color: #232323;
+    font-size: 18px ;
+    text-transform: capitalize;
+}
+.shop .conatiner .right_box .product_box .product_conatiner .productshopbox .details p{
+    margin-top: 5px;
+    text-align: center;
+    color: #cd1e76;
+    font-size: 16px;
+}
+.shop .conatiner .right_box .product_box .product_conatiner .productshopbox .details button{
+    margin-top: 10px ;
+    margin-left: 30%;
+    padding: 10px 20px ;
+    border: none;
+    outline: none;
+    color: #232323;
+    background: #fed700;
+}
+
+.shop .conatiner .right_box .product_box .product_conatiner .productshopbox .details button:hover{
+    color: #fed700;
+    background: #232323;
+}
+
+.product_details_shop{
+    width: 70vw;
+    height: 35vw ;
+    position: fixed;
+    top: 15vh;
+    left: 20vw;
+    background: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px ;
+    border: 1px solid #f6f6f6;
+}
+
+.product_details_shop .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.product_details_shop .container .img_box{
+    padding: 20px 20px ;
+    background: #f6f6f6;
+    border-radius: 10px;
+
+}
+
+.product_details_shop .container .img_box img{
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+}
+.product_details_shop .container .info{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.product_details_shop .container .info h4{
+    color: #8a8a8a;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.product_details_shop .container .info h2{
+    margin-top: 30px;
+    color: #232323;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.product_details_shop .container .info h3{
+    margin-top: 10px;
+    color: #8a8a8a;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.product_details_shop .container .info p{
+    margin-top: 10px;
+    font-size: 24px;
+    color: #cd1e76;
+}
+.product_details_shop .container .info button{
+    margin-top: 10px;
+    padding: 10px 30px ;
+    border: none;
+    outline: none;
+    background: none;
+    background: #cd1e76;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}

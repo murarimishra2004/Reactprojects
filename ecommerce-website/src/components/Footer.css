@@ -1,0 +1,86 @@
+.headercontainer{
+    width: 100vw;
+    height: 70vh;
+    padding: 0.5208vw 1.8519vw ;
+    margin: 2vw;
+    background: #F6F7F8;
+    display: flex;   
+     
+}
+
+.headercontainer .leftbox{
+    width: 35%;
+    padding: 10px 20px ;
+    margin: 10px 20px ;
+    border-right: 1px solid #8a8a8a;
+}
+
+.headercontainer .leftbox .leftdetails{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+    margin-top: 5vw;  
+    margin-left: 5vw; 
+}
+
+.headercontainer .leftbox .leftdetails .insideleftdetails{
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+    margin: 20px;
+}
+
+.headercontainer .leftbox .leftdetails .insideleftdetails .icon{
+    font-size: 2.2vw;
+    color: #CD1E76;
+}
+.headercontainer .leftbox .leftdetails .insideleftdetails .aftericondetails h2{
+    color: #CD1E76;
+    font-size: 1.6vw;
+}
+
+.headercontainer .rightbox{
+    width: 65%;
+    padding: 0.5208vw 1.8519vw ;
+    margin: 10px 40px ;
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+}
+
+.headercontainer .rightbox .logodetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    padding: 0.5208vw 1.8519vw ;
+    height: 10vw;
+    
+    margin-top: 3vw;
+}
+
+.headercontainer .rightbox .logodetails .logo .img{
+    object-fit: cover;
+}
+
+.headercontainer .rightbox .footerdetails{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headercontainer .rightbox .footerdetails .footerdetailsbox h3{
+     margin-bottom: 1vw;
+     color: #CD1E76;
+     font-size: 1.5vw;
+
+}
+
+.headercontainer .rightbox .footerdetails .footerdetailsbox h4{
+    color: #232323;
+    font-size: 1rem;
+    margin: 0.6vw ;
+}
+
+.headercontainer .rightbox .footerdetails .footerdetailsbox h4:hover{
+    color: #CD1E76;
+}
